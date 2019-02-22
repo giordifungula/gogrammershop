@@ -103,11 +103,18 @@ footer a {
 footer a:hover {
   transform: none;
 }
+footer .nav1, footer .nav2, footer .nav3, footer .nav4 {
+  margin: 0 auto;
+}
 footer nav {
   display: flex;
 }
 footer nav a {
   display: block;
+}
+
+.footer-links {
+  padding: 1em;
 }
 
 .shop-content img {

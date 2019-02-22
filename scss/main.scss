@@ -126,15 +126,23 @@ footer {
         margin: 20px;
         // some space aroung links
     }
+// ================= nav items ===========================
+.nav1, .nav2 , .nav3 , .nav4 {
+    margin: 0 auto;
+}
 
     nav {
         display: flex;
-
         a {
             display: block;
             // display in different columns
         }
     }
+}
+
+// =================2nd footer ================
+.footer-links {
+    padding: 1em;
 }
 
 // ===== Images for the cart 
@@ -172,3 +180,5 @@ footer {
         // max-width: 300px;
     }
 }
+
+
