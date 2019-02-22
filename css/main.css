@@ -137,5 +137,14 @@ footer nav a {
 .shop-category-item {
   margin: 0 2em;
 }
+@media (max-width: 600px) {
+  .shop-content, header, .shop-category-content, .nav, .top-content, .shop-info {
+    flex-direction: column;
+  }
+
+  .search {
+    margin-top: 16px;
+  }
+}
 
 /*# sourceMappingURL=main.css.map */

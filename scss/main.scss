@@ -181,4 +181,13 @@ footer {
     }
 }
 
-
+// =============== Mobile Styles ====================
+@media (max-width: 600px){
+    .shop-content ,header,.shop-category-content, .nav , .top-content , .shop-info {
+        flex-direction: column;
+        // disply column on mobile
+    }
+    .search {
+        margin-top: 16px;
+    }
+}
