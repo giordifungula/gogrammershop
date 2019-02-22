@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+}
+
+// Variables
+
+$light-blue: #01BBD4;
+$light-red: #E91D62;
+$text-white: #fff;
+body {
+    margin: 0;
+    padding: 0;
+    background: $light-blue;
+    color: $text-white;
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+.container {
+    // background: $light-red;
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+// ==================== Base Styles ===================== //
+img {
+    width: 100%;
+}
+a {
+    text-decoration: none;
+    color: $text-white;
+    font-size: 1.1em;
+    border: 1px solid $text-white;
+    border-radius: 3px;
+    padding: 5px;
+    &:hover {
+        background: $light-blue;
+        transform: translateX(-110px);
+    }
+
+}
+// ===================== Logo ====================== //
+.logo {
+    max-width: 200px;
+    justify-content: flex-start;
+}
+// ================== Header Styles ====================== //
+header {
+    display: flex;
+    // flex-wrap: wrap;
+    // align-content: center; 
+    align-items: center;
+    justify-content: space-between;
+        nav {
+            justify-content: flex-end;
+            padding: 20px;
+        }
+}
