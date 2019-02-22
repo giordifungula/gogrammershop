@@ -50,10 +50,11 @@ input, .search {
 .btn {
   border-radius: 3px;
   padding: 5px;
-  margin: 0.5em;
+  margin: 0.5em auto;
   border: 1px solid #fff;
   width: 80px;
   color: #fff;
+  display: block;
 }
 
 .logo {
@@ -109,7 +110,7 @@ footer nav a {
   display: block;
 }
 
-.shop-category-item img, .shop-content img {
+.shop-content img {
   max-width: 200px;
 }
 
@@ -120,6 +121,13 @@ footer nav a {
   display: flex;
 }
 .shop-content .shop-info .about-item {
+  margin: 0 2em;
+}
+.shop-category-content {
+  display: flex;
+}
+
+.shop-category-item {
   margin: 0 2em;
 }
 

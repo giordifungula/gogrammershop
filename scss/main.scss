@@ -56,10 +56,11 @@ input, .search {
 .btn {
     border-radius: 3px;
     padding: 5px;
-    margin: 0.5em;
+    margin: 0.5em auto;
     border: 1px solid $text-white;
     width: 80px;
     color: $text-white;
+    display: block;
 }
 
 // ===================== Logo ====================== //
@@ -137,10 +138,9 @@ footer {
 }
 
 // ===== Images for the cart 
-.shop-category-item, .shop-content {
+.shop-content {
     img{
         max-width: 200px;
-
     }
 }
 // ==================== Shop Content ================
@@ -162,6 +162,13 @@ footer {
 }
 
 // ================= Categories section =================
+.shop-category-content {
+    display: flex;
+}
 .shop-category-item {
-    
+    margin: 0 2em;
+
+    img {
+        // max-width: 300px;
+    }
 }
