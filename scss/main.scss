@@ -16,6 +16,8 @@ body {
 }
 .container {
     // background: $light-red;
+    background: linear-gradient(to left, $light-red, $light-blue);
+
     width: 100%;
     max-width: 1300px;
     margin: 0 auto;
@@ -31,12 +33,23 @@ a {
     border: 1px solid $text-white;
     border-radius: 3px;
     padding: 5px;
+    transition: 0.2s all ease-in;
     &:hover {
-        background: $light-blue;
+        background: $light-red;
         transform: translateX(-110px);
     }
 
 }
+
+// ============================= Components ========================
+input, .search {
+    padding: 6px;
+    // border-radius: 3px;
+}
+.search {
+    color:$light-red;
+}
+
 // ===================== Logo ====================== //
 .logo {
     max-width: 200px;
@@ -47,10 +60,20 @@ header {
     display: flex;
     // flex-wrap: wrap;
     // align-content: center; 
+
     align-items: center;
     justify-content: space-between;
         nav {
             justify-content: flex-end;
             padding: 20px;
         }
+}
+
+// ======================== Landin Page ============================== //
+.landing-pg {
+    background: linear-gradient(to left, #fff, $light-blue);
+
+    .top-content {
+        display: flex;
+    }
 }
