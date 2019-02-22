@@ -5,7 +5,7 @@
 // Variables
 
 $light-blue: #01BBD4;
-$light-red: #E91D62;
+$light-red:  #E91D62;
 $text-white: #fff;
 body {
     margin: 0;
@@ -13,11 +13,13 @@ body {
     background: $light-blue;
     color: $text-white;
     font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    text-align: center;
 }
 .container {
     // background: $light-red;
     background: linear-gradient(to left, $light-red, $light-blue);
-
+    padding: 2em;
     width: 100%;
     max-width: 1300px;
     margin: 0 auto;
@@ -25,6 +27,7 @@ body {
 // ==================== Base Styles ===================== //
 img {
     width: 100%;
+    height: auto;
 }
 a {
     text-decoration: none;
@@ -50,10 +53,27 @@ input, .search {
     color:$light-red;
 }
 
+.btn {
+    border-radius: 3px;
+    padding: 5px;
+    margin: 0.5em;
+    border: 1px solid $text-white;
+    width: 80px;
+    color: $text-white;
+}
+
 // ===================== Logo ====================== //
 .logo {
     max-width: 200px;
     justify-content: flex-start;
+    a {
+        img {
+            width: 50px;
+        }
+        &:hover {
+        background: none;
+        }
+    }
 }
 // ================== Header Styles ====================== //
 header {
@@ -72,8 +92,76 @@ header {
 // ======================== Landin Page ============================== //
 .landing-pg {
     background: linear-gradient(to left, #fff, $light-blue);
-
+    
+    
     .top-content {
         display: flex;
+        height: 100%;
+        background-color: none;
+
+        .banner {
+            max-width: 610px;
+            background-color: none;
+        }
+
+        // =============== Slider content of the banner
+        .slider-content {
+            margin: auto;
+            text-align: center;
+        }
     }
+}
+
+
+// Footer Styles
+footer {
+    // padding: 2em;
+    a {
+        border:none;
+        padding:0 2em;
+        &:hover{
+            transform: none;
+        }
+        margin: 20px;
+        // some space aroung links
+    }
+
+    nav {
+        display: flex;
+
+        a {
+            display: block;
+            // display in different columns
+        }
+    }
+}
+
+// ===== Images for the cart 
+.shop-category-item, .shop-content {
+    img{
+        max-width: 200px;
+
+    }
+}
+// ==================== Shop Content ================
+.shop-content {
+    display: flex;
+
+    .shop-info {
+        // Shop Container content
+        display: flex;
+        // margin: 0 2em;
+
+        .about-item {
+            margin: 0 2em;
+        }
+        img {
+        }
+
+    }
+}
+
+// ================= Categories section =================
+.shop-category-item {
+    
 }

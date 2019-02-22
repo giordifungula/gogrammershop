@@ -8,10 +8,13 @@ body {
   background: #01BBD4;
   color: #fff;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  text-align: center;
 }
 
 .container {
   background: linear-gradient(to left, #E91D62, #01BBD4);
+  padding: 2em;
   width: 100%;
   max-width: 1300px;
   margin: 0 auto;
@@ -19,6 +22,7 @@ body {
 
 img {
   width: 100%;
+  height: auto;
 }
 
 a {
@@ -43,9 +47,24 @@ input, .search {
   color: #E91D62;
 }
 
+.btn {
+  border-radius: 3px;
+  padding: 5px;
+  margin: 0.5em;
+  border: 1px solid #fff;
+  width: 80px;
+  color: #fff;
+}
+
 .logo {
   max-width: 200px;
   justify-content: flex-start;
+}
+.logo a img {
+  width: 50px;
+}
+.logo a:hover {
+  background: none;
 }
 
 header {
@@ -63,6 +82,45 @@ header nav {
 }
 .landing-pg .top-content {
   display: flex;
+  height: 100%;
+  background-color: none;
+}
+.landing-pg .top-content .banner {
+  max-width: 610px;
+  background-color: none;
+}
+.landing-pg .top-content .slider-content {
+  margin: auto;
+  text-align: center;
+}
+
+footer a {
+  border: none;
+  padding: 0 2em;
+  margin: 20px;
+}
+footer a:hover {
+  transform: none;
+}
+footer nav {
+  display: flex;
+}
+footer nav a {
+  display: block;
+}
+
+.shop-category-item img, .shop-content img {
+  max-width: 200px;
+}
+
+.shop-content {
+  display: flex;
+}
+.shop-content .shop-info {
+  display: flex;
+}
+.shop-content .shop-info .about-item {
+  margin: 0 2em;
 }
 
 /*# sourceMappingURL=main.css.map */
