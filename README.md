@@ -5,6 +5,9 @@ This is for a online type store for gogrammer.
 - This project serves as a test for a coding reviewer role at HyperionDev.
 - Need to create a online store layout similar to other stores.
 
+#Live Link
+- https://giordifungula.github.io/gogrammershop/.
+
 ## Brief
 - Website must contain at least
 • A top bar containing search bar, company name and/or logo (you can use any image for the logo)
